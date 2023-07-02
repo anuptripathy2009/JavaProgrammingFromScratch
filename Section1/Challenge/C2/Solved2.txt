@@ -1,4 +1,4 @@
-double pounds = 23;
+double pounds = 23; //Copy each line one by one in the jshell
 double kilogram = 23 * 0.45359273;
 
 System.out.print(kilogram);
