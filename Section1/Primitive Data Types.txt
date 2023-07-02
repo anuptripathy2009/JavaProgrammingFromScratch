@@ -29,7 +29,7 @@ int compilation_test3 = 2147483648; //I don't know why but rule is rule.....
 
 int number = 2_147_483_647; //its same as ',' in our real world
 
-Some other data types 
+Some other data types
 
 byte max_byte = Byte.MAX_VALUE;
 byte min_byte = Byte.MIN_VALUE;
@@ -54,8 +54,8 @@ TRY THIS CODE TO PASTE(Its not a good practise but still, lets have some fun)
   \    /
    \  /
     ||
- 
-//Assigning code 
+
+//Assigning code
 byte max_byte = Byte.MAX_VALUE;byte min_byte = Byte.MIN_VALUE;short max_short = Short.MAX_VALUE;short min_short = Short.MIN_VALUE;long max_long = Long.MAX_VALUE;long min_long = Long.MIN_VALUE;
 
 //Printing code
@@ -69,14 +69,16 @@ int1 = int2 = int3 = 4;
 //Copy it like as it is, and paste it on jshell
 System.out.print(int1 + ", ");System.out.print(int2 + ", ");System.out.print(int3);
 
-Double and Float data type
+_____________________________
+|Double and Float data type |
+_____________________________
 
 System.out.println("Float range (" + Float.MIN_VALUE + " to " + Float.MAX_VALUE + ")");
 System.out.println("Double range (" + Double.MIN_VALUE + " to " + Double.MAX_VALUE + ")");
 
 double myDouble = 34.09;
-float myFloat = 34.234f; 
-//without the f suffix the value inside the myFloatNumber variable will be considered as the double data type so, as we can't store a double value in a float so it will throw an error 
+float myFloat = 34.234f;
+//without the f suffix the value inside the myFloatNumber variable will be considered as the double data type so, as we can't store a double value in a float so it will throw an error
 
 float my_float = 23.99; //-->error
 //It will throw an error, use the f suffix to prevent it or use **type casting**
@@ -87,7 +89,21 @@ float myfloat = (float) 23.99 // error prevented
 You can use 'd' suffic for double with we have ignored at first as every decimal numbers on java is considered as double by default
 ----------------------------------------------------------------------------------------
 
+____________________
+|Chars And Booleans|
+____________________
 
+Chars-->
+char myChar = 'C';
+char myChar2 = 'CC'; //error
+char myChar3 = "C"; //error double quotes are only used for Strings
 
+Unicode-->
 
+char myUnicode = '\u0044'; //stores D
+char mySameUnicode = 63; //stores question mark '?' and its the html code
 
+Booleans-->
+booleans data type allows us to store true/false
+
+boolean aBegginnerProgrammer = true; 
