@@ -1,0 +1,93 @@
+To open the jshell
+--> Go to windows terminal, then type jshell(Note it will happen if Java is installed on the PC)
+
+
+
+Some codes to run in the jshell -->
+
+int max_int = Integer.MAX_VALUE;
+int min_int = Integer.MIN_VALUE;
+
+System.out.println("Maximum Value Of An Integer Data Type Is: " + max_int)
+System.out.println("Minimum Value Of An Integer Data Type Is: " + min_int)
+
+busted_max_int = Integer.MAX_VALUE + 1;
+busted_min_int = Integer.MIN_VALUE + 1;
+
+System.out.println("The Overflowed Maximum Value Of The Integer Data Type Is " + busted_max_int);
+System.out.println("The Overflowed Minimum Value Of The Integer Data Type Is " + busted_min_int);
+
+Compilation test...
+int compilation_test1 = Integer.MAX_VALUE + 1 //this will get compiled
+int compilation_test2 = Integer.MAX_VALUE + 1 //this will also get compiled
+//but
+//This will throw an error
+int compilation_test3 = 2147483648; //I don't know why but rule is rule.....
+
+//For the sake of readabily we can also use _ between numbers
+//Note '_' is ignored by java
+
+int number = 2_147_483_647; //its same as ',' in our real world
+
+Some other data types 
+
+byte max_byte = Byte.MAX_VALUE;
+byte min_byte = Byte.MIN_VALUE;
+
+short max_short = Short.MAX_VALUE;
+short min_short = Short.MIN_VALUE;
+
+long max_long = Long.MAX_VALUE;
+long min_long = Long.MIN_VALUE;
+
+System.out.println("Range of Byte Data Type (" + max_byte + " to " + min_byte + ")");
+System.out.println("Range of Short Data Type (" + max_short + " to " + min_short + ")");
+System.out.println("Range of Long Data Type (" + max_long + " to " + min_long + ")");
+
+_______
+| OR  |
+--------
+TRY THIS CODE TO PASTE(Its not a good practise but still, lets have some fun)
+    ||
+ ___||___
+ \	    /
+  \    /
+   \  /
+    ||
+ 
+//Assigning code 
+byte max_byte = Byte.MAX_VALUE;byte min_byte = Byte.MIN_VALUE;short max_short = Short.MAX_VALUE;short min_short = Short.MIN_VALUE;long max_long = Long.MAX_VALUE;long min_long = Long.MIN_VALUE;
+
+//Printing code
+System.out.println("Range of Byte Data Type (" + max_byte + " to " + min_byte + ")");System.out.println("Range of Short Data Type (" + max_short + " to " + min_short + ")");System.out.println("Range of Long Data Type (" + max_long + " to " + min_long + ")");
+
+//Multiple decalration rule
+int int1, int2, int3;
+byte b1 = 1, b2 = 3, b3 = 4;
+int1 = int2 = int3 = 4;
+
+//Copy it like as it is, and paste it on jshell
+System.out.print(int1 + ", ");System.out.print(int2 + ", ");System.out.print(int3);
+
+Double and Float data type
+
+System.out.println("Float range (" + Float.MIN_VALUE + " to " + Float.MAX_VALUE + ")");
+System.out.println("Double range (" + Double.MIN_VALUE + " to " + Double.MAX_VALUE + ")");
+
+double myDouble = 34.09;
+float myFloat = 34.234f; 
+//without the f suffix the value inside the myFloatNumber variable will be considered as the double data type so, as we can't store a double value in a float so it will throw an error 
+
+float my_float = 23.99; //-->error
+//It will throw an error, use the f suffix to prevent it or use **type casting**
+
+float myfloat = (float) 23.99 // error prevented
+
+----------------------------------------------------------------------------------------
+You can use 'd' suffic for double with we have ignored at first as every decimal numbers on java is considered as double by default
+----------------------------------------------------------------------------------------
+
+
+
+
+
