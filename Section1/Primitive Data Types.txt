@@ -107,3 +107,5 @@ Booleans-->
 booleans data type allows us to store true/false
 
 boolean aBegginnerProgrammer = true; 
+boolean isProgrammer = true;
+boolean notProgrammer = false; 
