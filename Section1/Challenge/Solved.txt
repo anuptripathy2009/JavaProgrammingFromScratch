@@ -1,9 +1,0 @@
-Copy the following solved code in the jshell
-
-byte b = 10
-short s = 100
-int i = 1000
-
-long result = 50000L + (10L * (b + s + i))
-
-System.out.println(result)
