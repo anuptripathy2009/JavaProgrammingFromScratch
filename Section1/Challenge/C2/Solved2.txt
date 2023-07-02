@@ -1,1 +1,4 @@
-double 
+double pounds = 23;
+double kilogram = 23 * 0.45359273;
+
+System.out.print(kilogram);
