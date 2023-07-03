@@ -107,13 +107,14 @@ Booleans-->
 booleans data type allows us to store true/false
 
 <<<<<<< HEAD
-boolean aBegginnerProgrammer = true; 
+boolean aBegginnerProgrammer = true;
 boolean isProgrammer = true;
-boolean notProgrammer = false; 
+boolean notProgrammer = false;
 =======
 boolean aBegginnerProgrammer = true;
 
 ____________________
 Strings||||||||
 --------------------
->>>>>>> eb11664 (Commit changes)
+
+String myString = "This is my String";
