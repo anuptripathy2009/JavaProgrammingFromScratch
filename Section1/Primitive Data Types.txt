@@ -118,3 +118,4 @@ Strings||||||||
 --------------------
 
 String myString = "This is my String";
+String concat_string = "This is a " + " String"; //This + operation on Strings is called String concatenation
