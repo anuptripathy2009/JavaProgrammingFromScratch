@@ -119,3 +119,20 @@ Strings||||||||
 
 String myString = "This is my String";
 String concat_string = "This is a " + " String"; //This + operation on Strings is called String concatenation
+
+Operators And Operands
+int myInt = 2010;
+int myShort = 120;
+int myLong = 1200000;
+
+int sumOfThree = myInt + myShort + myLong; //In this line myInt, myShort and myLong are the operands
+                                            and the '+' sign is the operator
+                                            and the whole this is called an expression.
+
+char myC = 'A';
+char myC2 = 'B';
+System.out.println(myC + myC2) // Output will be 131
+//If we don't really wanna concat the two chars, its possible.
+String concat_char = "" + 'A' + 'B';
+System.out.println(concat_char) // AB
+      
