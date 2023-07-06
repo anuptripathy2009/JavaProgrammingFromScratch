@@ -8,8 +8,18 @@ public class ternaryOperator {
         } 
         //Practical Use
         int age = 12;
-        boolean canPlayCOD = age >= 16 ? true:false;
-
+        // age++;
+        // age++;
+        // age++; //Just for fun
+        // age++;
+        age += 4;
+        boolean canPlayCOD = age >= 16 ?true:false;
+        System.out.println(canPlayCOD);
+        // age++;
+        // age++;
+        // age++; //Just for fun
+        // age++;
+        age += 4;
         if (canPlayCOD) { //you don't need to write (canPlayCOD == true)
             System.out.println("Your age has been verified to play Call Of Duty");
         }
